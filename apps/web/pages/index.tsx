@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { UiHeading } from '@short-form/layout';
 
 const StyledPage = styled.div`
   .page {
@@ -14,6 +15,7 @@ export function Index() {
   return (
     <StyledPage>
       <h2>Resources &amp; Tools</h2>
+
       <p>Thank you for using and showing some ♥ for Nx.</p>
       <div className="flex github-star-container">
         <a
@@ -21,7 +23,7 @@ export function Index() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {' '}
+          <UiHeading text="??" />
           If you like Nx, please give it a star:
           <div className="github-star-badge">
             {/* eslint-disable-next-line @next/next/no-img-element */}

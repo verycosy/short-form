@@ -27,6 +27,9 @@
     ]
   },
   "projects": {
+    "layout": {
+      "tags": []
+    },
     "mobile": {
       "tags": []
     },
